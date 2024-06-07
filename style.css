@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+@font-face {
+    font-family: 'Orelga One';
+    src: url('path/to/OrelgaOne-Regular.ttf') format('truetype'),
+         url('path/to/OrelgaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 1000vh;    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    position: relative;
+    font-size: 10px;
+    color:#000;
+    font: weight 600px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#signup-button {
+    background-color: #000000;
+    color:#fff;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+#signup-button:hover {
+    background-color: #6a656e;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+ 
+}
+.login-button{
+    background-color: #fff;
+    color:#000;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.login-button:hover {
+    background-color: #6a656e;
+    font-size: 10px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+#see-products{
+    background-color: #000000;
+    color:#fff;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+#see-products:hover {
+    background-color: #6a656e;
+    font-size: 10px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+#logo{
+    margin-top: 10px;
+    width: 50px;
+    height: 45px;
+}
+#planner{
+  font-size: 16;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background: #000;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.hero{
+    margin-top: 90px;
+    margin-left: 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero img {
+    width: 220px;
+    height: 240px;
+}
+.text {
+    background-color: transparent;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center; 
+}
+.txt{
+    margin: 5px;
+}
